@@ -1,0 +1,16 @@
+ALTER function [dbo].[F_MAVTKHO](@MAKHO nchar(4), @MAPX nchar(8))
+returns table
+as
+return
+	select * from Vattu
+	where MAVT in 
+	(
+		select MAVT from CTPN
+		where MAPN in
+		(select MAPN from PhieuNhap
+		where @MAKHO = MAKHO
+		)
+	)
+	and MAVT not in
+	(select MAVT from CTPX
+	where @MAPX = MAPX)

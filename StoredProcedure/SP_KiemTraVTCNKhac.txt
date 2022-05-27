@@ -1,0 +1,10 @@
+ALTER proc [dbo].[SP_KiemTraMaVTCNKhac]
+@MaVT nchar(4)
+as
+	if exists(select 1 from LINK1.QLVT.dbo.CTDDH where MAVT = @MaVT)
+		return 1
+	if exists(select 1 from LINK1.QLVT.dbo.CTPX where MAVT = @MaVT)
+		return 2
+	if exists(select 1 from LINK1.QLVT.dbo.CTPN where MAVT = @MaVT)
+		return 3
+	return 0

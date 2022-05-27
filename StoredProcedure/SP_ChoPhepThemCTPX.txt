@@ -1,0 +1,8 @@
+ALTER proc [dbo].[SP_ChoPhepThemCTPX]
+@MAKHO nchar(4), @MAPX nchar(8)
+as
+	declare @MAVT nchar(4)
+	select top 1 @MAVT = MAVT from dbo.F_MAVTKHO(@MAKHO, @MAPX)
+	if @MAVT <> null
+		return 0
+	return 1

@@ -1,0 +1,35 @@
+ALTER proc [dbo].[SP_HoatDongNhanVienTheoThang]
+@loaiPhieu int, @MANV int, @TN date, @DN date 
+as
+begin
+	if(@loaiPhieu = 0)
+	begin
+		select FORMAT(PN.NGAY, 'dd-MM-yyyy'), PN.MAPN as MAPHIEU, VT.TENVT, K.TENKHO, CT.SOLUONG, CT.DONGIA from 
+		(select MAPN, MAKHO, NGAY from PhieuNhap 
+		where MANV = @MANV and @TN <= NGAY and @DN >= NGAY) PN, 
+		CTPN CT, (select MAVT, TENVT from Vattu) VT, 
+		(select MAKHO, TENKHO from Kho) K
+		where PN.MAKHO = K.MAKHO and CT.MAVT = VT.MAVT
+		and PN.MAPN = CT.MAPN
+	end
+	if(@loaiPhieu = 1)
+	begin
+		select FORMAT(PX.NGAY, 'dd-MM-yyyy'), PX.MAPX as MAPHIEU, VT.TENVT, K.TENKHO, CT.SOLUONG, CT.DONGIA from 
+		(select MAPX, MAKHO, NGAY from PhieuXuat 
+		where MANV = @MANV and @TN <= NGAY and @DN >= NGAY) PX, 
+		CTPX CT, (select MAVT, TENVT from Vattu) VT, 
+		(select MAKHO, TENKHO from Kho) K
+		where PX.MAKHO = K.MAKHO and CT.MAVT = VT.MAVT
+		and PX.MAPX = CT.MAPX
+	end
+	if(@loaiPhieu = 2)
+	begin
+		select FORMAT(DH.NGAY, 'dd-MM-yyyy'), DH.MasoDDH as MAPHIEU, VT.TENVT, K.TENKHO, CT.SOLUONG, CT.DONGIA from 
+		(select MasoDDH, MAKHO, NGAY from DatHang 
+		where MANV = @MANV and @TN <= NGAY and @DN >= NGAY) DH, 
+		CTDDH CT, (select MAVT, TENVT from Vattu) VT, 
+		(select MAKHO, TENKHO from Kho) K
+		where DH.MAKHO = K.MAKHO and CT.MAVT = VT.MAVT
+		and DH.MasoDDH = CT.MasoDDH
+	end 
+end

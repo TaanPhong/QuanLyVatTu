@@ -1,0 +1,21 @@
+ALTER proc [dbo].[SP_ChoPhepThemPX]
+@MaKho nchar(4)
+as
+begin
+	declare @SL int
+	select @SL = sum(SOLUONG) from CTPN
+	where MAPN in
+	(
+		select MAPN from PhieuNhap
+		where @MaKho = MAKHO
+	)
+	select @SL = @SL - sum(SOLUONG) from CTPX
+	where MAPX in
+	(
+		select MAPX from PhieuXuat
+		where @MaKho = MAKHO
+	)
+	if(@SL > 0)
+		return 1
+	return 0
+end

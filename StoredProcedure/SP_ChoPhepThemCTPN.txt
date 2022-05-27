@@ -1,0 +1,12 @@
+ALTER proc [dbo].[SP_ChoPhepThemCTPN]
+@MAPN nchar(8), @MasoDDH nchar(8)
+as
+	declare @PN int
+	declare @DH int
+	select @DH = COUNT(*) from CTDDH
+	where @MasoDDH = MasoDDH
+	select @PN = COUNT(*) from CTPN
+	where @MAPN = MAPN
+	if @PN = @DH
+		return 1
+	return 0

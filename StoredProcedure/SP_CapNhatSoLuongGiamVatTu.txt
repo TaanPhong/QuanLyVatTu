@@ -1,0 +1,11 @@
+ALTER proc [dbo].[SP_CapNhatSoLuongGiamVatTu]
+@MaPX nchar(8), @MaVT nchar(4)
+as
+begin
+	declare @Giam int
+	select @Giam = SOLUONG from CTPX
+	where @MaPX = MAPX and @MaVT = MAVT
+	update Vattu
+	set SOLUONGTON = SOLUONGTON - @Giam
+	where @MaVT = MAVT
+end

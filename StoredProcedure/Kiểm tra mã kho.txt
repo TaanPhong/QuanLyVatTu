@@ -1,0 +1,10 @@
+CREATE proc [dbo].[SP_TraCuuMaKho]
+@MaKho NCHAR(4)
+as
+	if exists(select 1 from KHO where @MaKho = MAKHO)
+		return 1
+	else
+		if exists(select 1 from LINK2.QLVT.dbo.KHO where @MaKho = MAKHO)
+			return 1
+		else
+			return 0

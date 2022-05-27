@@ -1,0 +1,5 @@
+create view V_InDanhSachNhanVien
+as
+SELECT TOP (99.99) PERCENT MANV, HO + ' ' + TEN AS HOTEN, DIACHI, NGAYSINH, LUONG
+FROM     dbo.NhanVien
+ORDER BY TEN, HO

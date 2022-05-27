@@ -1,0 +1,7 @@
+create view V_DanhSachDDH
+as
+SELECT MasoDDH
+FROM     dbo.DatHang
+WHERE  (MasoDDH NOT IN
+                      (SELECT MasoDDH
+                       FROM      dbo.PhieuNhap))

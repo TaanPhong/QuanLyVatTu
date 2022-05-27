@@ -1,0 +1,15 @@
+ALTER function [dbo].[F_MAVTDDH](@MasoDDH nchar(8), @MAPN nchar(8))
+returns table
+as
+return
+	select MAVT from Vattu
+	where MAVT in
+	(
+		select MAVT from CTDDH
+		where MasoDDH = @MasoDDH
+	)
+	and MAVT not in
+	(
+		select MAVT from CTPN
+		where MAPN = @MAPN
+	)

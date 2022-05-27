@@ -1,0 +1,10 @@
+ALTER proc [dbo].[SP_KiemTraMaPX]
+@MaPX nchar(8)
+as
+	if exists(select 1 from PhieuXuat where @MaPX = MAPX)
+		return 1
+	else
+		if exists(select 1 from LINK0.QLVT.dbo.PhieuXuat where MAPX = @MaPX)
+			return 1
+		else
+			return 0

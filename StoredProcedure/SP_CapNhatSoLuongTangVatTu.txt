@@ -1,0 +1,11 @@
+ALTER proc [dbo].[SP_CapNhatSoLuongTangVatTu]
+@MaPN nchar(8), @MaVT nchar(4)
+as
+begin
+	declare @Tang int
+	select @Tang = SOLUONG from CTPN
+	where @MaPN = MAPN and @MaVT = MAVT
+	update Vattu
+	set SOLUONGTON = SOLUONGTON + @Tang
+	where @MaVT = MAVT
+end
