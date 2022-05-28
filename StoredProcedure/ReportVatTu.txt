@@ -1,0 +1,17 @@
+USE [QLVT]
+GO
+
+/****** Object:  StoredProcedure [dbo].[SP_ReportVATTU]    Script Date: 28-May-22 6:16:17 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROC [dbo].[SP_ReportVATTU]
+AS
+select TENVT,DVT,SOLUONGTON
+FROM Vattu
+ORDER BY TENVT
+GO
+
