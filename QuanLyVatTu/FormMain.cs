@@ -234,5 +234,29 @@ namespace QuanLyVatTu
             }
 
         }
+
+        private void barButtonItem4_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Form form = CheckExists(typeof(ReportForm.BaoCaoDonHangThieuPN));
+            if (form != null) form.Activate();
+            else
+            {
+                Form form1 = new ReportForm.BaoCaoDonHangThieuPN();
+                form1.MdiParent = this;
+                form1.Show();
+            }
+        }
+
+        private void barButtonItem1_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Form form = CheckExists(typeof(ReportForm.BaoCaoVatuTu));
+            if (form != null) form.Activate();
+            else
+            {
+                Form report = new ReportForm.BaoCaoVatuTu();
+                report.MdiParent = this;
+                report.Show();
+            }
+        }
     }
 }

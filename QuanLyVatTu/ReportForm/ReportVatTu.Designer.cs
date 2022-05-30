@@ -1,5 +1,5 @@
 ﻿
-namespace QuanLyVatTu
+namespace QuanLyVatTu.ReportForm
 {
     partial class ReportVatTu
     {
@@ -82,12 +82,12 @@ namespace QuanLyVatTu
             // 
             // DetailCaption1
             // 
-            this.DetailCaption1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(212)))), ((int)(((byte)(246)))));
+            this.DetailCaption1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(104)))), ((int)(((byte)(196)))));
             this.DetailCaption1.BorderColor = System.Drawing.Color.White;
             this.DetailCaption1.Borders = DevExpress.XtraPrinting.BorderSide.Left;
             this.DetailCaption1.BorderWidth = 2F;
             this.DetailCaption1.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold);
-            this.DetailCaption1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(70)))), ((int)(((byte)(80)))));
+            this.DetailCaption1.ForeColor = System.Drawing.Color.White;
             this.DetailCaption1.Name = "DetailCaption1";
             this.DetailCaption1.Padding = new DevExpress.XtraPrinting.PaddingInfo(6, 6, 0, 0, 100F);
             this.DetailCaption1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
@@ -137,18 +137,18 @@ namespace QuanLyVatTu
             // 
             this.ReportHeader.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
             this.label1});
-            this.ReportHeader.HeightF = 60F;
+            this.ReportHeader.HeightF = 60.00001F;
             this.ReportHeader.Name = "ReportHeader";
             // 
             // GroupHeader1
             // 
             this.GroupHeader1.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
             this.table1});
+            this.GroupHeader1.Font = new System.Drawing.Font("Times New Roman", 12F);
             this.GroupHeader1.GroupUnion = DevExpress.XtraReports.UI.GroupUnion.WithFirstDetail;
             this.GroupHeader1.HeightF = 28F;
             this.GroupHeader1.Name = "GroupHeader1";
-            this.GroupHeader1.StylePriority.UseTextAlignment = false;
-            this.GroupHeader1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
+            this.GroupHeader1.StylePriority.UseFont = false;
             // 
             // Detail
             // 
@@ -159,44 +159,40 @@ namespace QuanLyVatTu
             // 
             // pageInfo1
             // 
-            this.pageInfo1.Font = new System.Drawing.Font("Arial", 11F, System.Drawing.FontStyle.Bold);
             this.pageInfo1.LocationFloat = new DevExpress.Utils.PointFloat(6F, 6F);
             this.pageInfo1.Name = "pageInfo1";
             this.pageInfo1.PageInfo = DevExpress.XtraPrinting.PageInfo.DateTime;
-            this.pageInfo1.SizeF = new System.Drawing.SizeF(313F, 23F);
+            this.pageInfo1.SizeF = new System.Drawing.SizeF(354.5F, 23F);
             this.pageInfo1.StyleName = "PageInfo";
-            this.pageInfo1.StylePriority.UseFont = false;
             // 
             // pageInfo2
             // 
-            this.pageInfo2.Font = new System.Drawing.Font("Times New Roman", 11F, System.Drawing.FontStyle.Bold);
-            this.pageInfo2.LocationFloat = new DevExpress.Utils.PointFloat(331F, 6F);
+            this.pageInfo2.LocationFloat = new DevExpress.Utils.PointFloat(372F, 6F);
             this.pageInfo2.Name = "pageInfo2";
-            this.pageInfo2.SizeF = new System.Drawing.SizeF(313F, 23F);
+            this.pageInfo2.SizeF = new System.Drawing.SizeF(354.5F, 23F);
             this.pageInfo2.StyleName = "PageInfo";
-            this.pageInfo2.StylePriority.UseFont = false;
             this.pageInfo2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
             this.pageInfo2.TextFormatString = "Page {0} of {1}";
             // 
             // label1
             // 
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Bold);
-            this.label1.LocationFloat = new DevExpress.Utils.PointFloat(6.00001F, 5.999994F);
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 20F);
+            this.label1.LocationFloat = new DevExpress.Utils.PointFloat(5.999994F, 6.00001F);
             this.label1.Name = "label1";
-            this.label1.SizeF = new System.Drawing.SizeF(750F, 44.00001F);
+            this.label1.SizeF = new System.Drawing.SizeF(721F, 32.52767F);
             this.label1.StyleName = "Title";
             this.label1.StylePriority.UseFont = false;
             this.label1.StylePriority.UseTextAlignment = false;
-            this.label1.Text = "DANH MỤC VẬT TƯ";
+            this.label1.Text = "DANH SÁCH VẬT TƯ";
             this.label1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
             // 
             // table1
             // 
-            this.table1.LocationFloat = new DevExpress.Utils.PointFloat(70.83334F, 0F);
+            this.table1.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
             this.table1.Name = "table1";
             this.table1.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
             this.tableRow1});
-            this.table1.SizeF = new System.Drawing.SizeF(601.0417F, 28F);
+            this.table1.SizeF = new System.Drawing.SizeF(733F, 28F);
             // 
             // tableRow1
             // 
@@ -224,7 +220,7 @@ namespace QuanLyVatTu
             this.tableCell1.StylePriority.UseTextAlignment = false;
             this.tableCell1.Text = "Tên vật tư";
             this.tableCell1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
-            this.tableCell1.Weight = 0.32847851584811705D;
+            this.tableCell1.Weight = 0.39165149757346013D;
             // 
             // tableCell2
             // 
@@ -243,35 +239,28 @@ namespace QuanLyVatTu
             this.tableCell2.StylePriority.UseTextAlignment = false;
             this.tableCell2.Text = "Đơn vị tính";
             this.tableCell2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
-            this.tableCell2.Weight = 0.18297849051873524D;
+            this.tableCell2.Weight = 0.29112205803259222D;
             // 
             // tableCell3
             // 
-            this.tableCell3.BorderColor = System.Drawing.Color.Black;
-            this.tableCell3.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
-            | DevExpress.XtraPrinting.BorderSide.Right) 
-            | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.tableCell3.BorderWidth = 1F;
             this.tableCell3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
             this.tableCell3.Name = "tableCell3";
             this.tableCell3.StyleName = "DetailCaption1";
-            this.tableCell3.StylePriority.UseBorderColor = false;
-            this.tableCell3.StylePriority.UseBorders = false;
-            this.tableCell3.StylePriority.UseBorderWidth = false;
             this.tableCell3.StylePriority.UseFont = false;
             this.tableCell3.StylePriority.UseTextAlignment = false;
             this.tableCell3.Text = "Số lượng tồn";
             this.tableCell3.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
-            this.tableCell3.Weight = 0.27540974914653354D;
+            this.tableCell3.TextFormatString = "{0:#,#}";
+            this.tableCell3.Weight = 0.31722640276014391D;
             // 
             // table2
             // 
-            this.table2.LocationFloat = new DevExpress.Utils.PointFloat(70.83324F, 0F);
+            this.table2.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
             this.table2.Name = "table2";
             this.table2.OddStyleName = "DetailData3_Odd";
             this.table2.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
             this.tableRow2});
-            this.table2.SizeF = new System.Drawing.SizeF(601.0417F, 25F);
+            this.table2.SizeF = new System.Drawing.SizeF(733F, 25F);
             // 
             // tableRow2
             // 
@@ -291,14 +280,14 @@ namespace QuanLyVatTu
             this.tableCell4.BorderWidth = 1F;
             this.tableCell4.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[TENVT]")});
-            this.tableCell4.Font = new System.Drawing.Font("Arial", 11F);
+            this.tableCell4.Font = new System.Drawing.Font("Times New Roman", 12F);
             this.tableCell4.Name = "tableCell4";
             this.tableCell4.StyleName = "DetailData1";
             this.tableCell4.StylePriority.UseBorderColor = false;
             this.tableCell4.StylePriority.UseBorders = false;
             this.tableCell4.StylePriority.UseBorderWidth = false;
             this.tableCell4.StylePriority.UseFont = false;
-            this.tableCell4.Weight = 0.38600863193509682D;
+            this.tableCell4.Weight = 0.39165152540151071D;
             // 
             // tableCell5
             // 
@@ -309,38 +298,34 @@ namespace QuanLyVatTu
             this.tableCell5.BorderWidth = 1F;
             this.tableCell5.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[DVT]")});
-            this.tableCell5.Font = new System.Drawing.Font("Times New Roman", 11F);
+            this.tableCell5.Font = new System.Drawing.Font("Times New Roman", 12F);
             this.tableCell5.Name = "tableCell5";
             this.tableCell5.StyleName = "DetailData1";
             this.tableCell5.StylePriority.UseBorderColor = false;
             this.tableCell5.StylePriority.UseBorders = false;
             this.tableCell5.StylePriority.UseBorderWidth = false;
             this.tableCell5.StylePriority.UseFont = false;
-            this.tableCell5.StylePriority.UseTextAlignment = false;
-            this.tableCell5.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
-            this.tableCell5.Weight = 0.21502559558769849D;
+            this.tableCell5.Weight = 0.29112204289560767D;
             // 
             // tableCell6
             // 
             this.tableCell6.BorderColor = System.Drawing.Color.Black;
-            this.tableCell6.BorderDashStyle = DevExpress.XtraPrinting.BorderDashStyle.Solid;
             this.tableCell6.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
             | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.tableCell6.BorderWidth = 1F;
             this.tableCell6.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[SOLUONGTON]")});
-            this.tableCell6.Font = new System.Drawing.Font("Times New Roman", 11F);
+            this.tableCell6.Font = new System.Drawing.Font("Times New Roman", 12F);
             this.tableCell6.Name = "tableCell6";
             this.tableCell6.StyleName = "DetailData1";
             this.tableCell6.StylePriority.UseBorderColor = false;
-            this.tableCell6.StylePriority.UseBorderDashStyle = false;
             this.tableCell6.StylePriority.UseBorders = false;
             this.tableCell6.StylePriority.UseBorderWidth = false;
             this.tableCell6.StylePriority.UseFont = false;
             this.tableCell6.StylePriority.UseTextAlignment = false;
-            this.tableCell6.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
-            this.tableCell6.Weight = 0.32364540656392182D;
+            this.tableCell6.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            this.tableCell6.Weight = 0.31722645251978343D;
             // 
             // ReportVatTu
             // 
@@ -355,7 +340,7 @@ namespace QuanLyVatTu
             this.DataMember = "SP_ReportVATTU";
             this.DataSource = this.sqlDataSource1;
             this.Font = new System.Drawing.Font("Arial", 9.75F);
-            this.Margins = new System.Drawing.Printing.Margins(94, 0, 100, 100);
+            this.Margins = new System.Drawing.Printing.Margins(66, 51, 100, 100);
             this.StyleSheet.AddRange(new DevExpress.XtraReports.UI.XRControlStyle[] {
             this.Title,
             this.DetailCaption1,

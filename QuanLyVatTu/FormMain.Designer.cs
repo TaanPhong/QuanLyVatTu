@@ -62,6 +62,7 @@ namespace QuanLyVatTu
             this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.pageBaoCao = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup2 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.barButtonItem1 = new DevExpress.XtraBars.BarButtonItem();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabbedMdiManager1)).BeginInit();
             this.statusStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
@@ -127,10 +128,11 @@ namespace QuanLyVatTu
             this.barSubItem1,
             this.btnPN,
             this.btnPX,
-            this.btnDDH});
+            this.btnDDH,
+            this.barButtonItem1});
             this.ribbonControl1.Location = new System.Drawing.Point(0, 0);
-            this.ribbonControl1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.ribbonControl1.MaxItemId = 22;
+            this.ribbonControl1.Margin = new System.Windows.Forms.Padding(5);
+            this.ribbonControl1.MaxItemId = 24;
             this.ribbonControl1.Name = "ribbonControl1";
             this.ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
             this.pageTaiKhoan,
@@ -201,7 +203,9 @@ namespace QuanLyVatTu
             // 
             // barButtonItem3
             // 
-           
+            this.barButtonItem3.Id = 22;
+            this.barButtonItem3.Name = "barButtonItem3";
+            // 
             // bntCTPX
             // 
             this.bntCTPX.Caption = "Chi Tiết Nhập Xuất";
@@ -226,6 +230,7 @@ namespace QuanLyVatTu
             this.barButtonItem4.LargeWidth = 100;
             this.barButtonItem4.Name = "barButtonItem4";
             this.barButtonItem4.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.barButtonItem4.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem4_ItemClick);
             // 
             // bntHDNV
             // 
@@ -364,8 +369,17 @@ namespace QuanLyVatTu
             this.ribbonPageGroup2.ItemLinks.Add(this.barButtonItem4);
             this.ribbonPageGroup2.ItemLinks.Add(this.bntHDNV);
             this.ribbonPageGroup2.ItemLinks.Add(this.bntTHNX);
+            this.ribbonPageGroup2.ItemLinks.Add(this.barButtonItem1);
             this.ribbonPageGroup2.Name = "ribbonPageGroup2";
             this.ribbonPageGroup2.Text = "Quản lý báo cáo";
+            // 
+            // barButtonItem1
+            // 
+            this.barButtonItem1.Caption = "Danh Sách Vật Tư";
+            this.barButtonItem1.Id = 23;
+            this.barButtonItem1.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("barButtonItem1.ImageOptions.SvgImage")));
+            this.barButtonItem1.Name = "barButtonItem1";
+            this.barButtonItem1.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem1_ItemClick);
             // 
             // FormMain
             // 
@@ -425,5 +439,6 @@ namespace QuanLyVatTu
         private DevExpress.XtraBars.BarButtonItem btnPN;
         private DevExpress.XtraBars.BarButtonItem btnPX;
         private DevExpress.XtraBars.BarButtonItem btnDDH;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem1;
     }
 }

@@ -4,7 +4,7 @@ using System.Collections;
 using System.ComponentModel;
 using System.Drawing;
 
-namespace QuanLyVatTu
+namespace QuanLyVatTu.ReportForm
 {
     public partial class ReportVatTu : DevExpress.XtraReports.UI.XtraReport
     {
