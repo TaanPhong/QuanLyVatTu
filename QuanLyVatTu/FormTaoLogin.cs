@@ -21,16 +21,22 @@ namespace QuanLyVatTu
         {
             hoTenNVTableAdapter.Connection.ConnectionString = Program.connectionString;
             this.hoTenNVTableAdapter.Fill(this.dS.HoTenNV);
-            
             Dictionary<string, string> phu = new Dictionary<string, string>();
-            phu.Add("Công ty", "CONGTY");
-            phu.Add("Chi nhánh", "CHINHANH");
-            phu.Add("Người dùng", "USER");
+            if (Program.role == "CHINHANH")
+            {
+                phu.Add("Công ty", "CONGTY");
+                phu.Add("Chi nhánh", "CHINHANH");
+                phu.Add("Người dùng", "USER");
+            }
+            else
+            {
+                phu.Add("Công ty", "CONGTY");
+            }
             QuyenComboBox.DataSource = new BindingSource(phu, null);
             QuyenComboBox.DisplayMember = "Key";
             QuyenComboBox.ValueMember = "Value";
-            QuyenComboBox.SelectedIndex = 1;
-            TenComboBox.SelectedIndex = 1;
+            QuyenComboBox.SelectedIndex = 0;
+            TenComboBox.SelectedIndex = 0;
         }
 
         private void textEdit1_EditValueChanged(object sender, EventArgs e)

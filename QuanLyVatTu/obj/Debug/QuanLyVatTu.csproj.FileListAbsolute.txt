@@ -709,3 +709,5 @@ D:\DOAN\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.csproj.CoreCompileInputs.c
 D:\DOAN\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.csproj.CopyComplete
 D:\DOAN\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.exe
 D:\DOAN\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.pdb
+D:\DOAN\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.ReportForm.BaoCaoVatuTu.resources
+D:\DOAN\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.ReportForm.FormTongHopNhapXuat.resources
