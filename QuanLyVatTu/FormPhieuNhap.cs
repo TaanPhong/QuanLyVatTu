@@ -638,5 +638,10 @@ namespace QuanLyVatTu
             sbtnLuu.Enabled = sbtnPhucHoi.Enabled = false;
             panelControl2.Enabled = false;
          }
+
+        private void seDonGiaCTPN_EditValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

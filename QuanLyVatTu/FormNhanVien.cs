@@ -20,8 +20,8 @@ namespace QuanLyVatTu
         Stack phucHoiList = new Stack();
         string cauTruyVan = "";
         string luong = "";
-        string ho = "";
         string ten = "";
+        string ho = "";
         bool trangThaiXoa = true;
         string diaChi = "";
         DateTime ngaySinh;
@@ -30,7 +30,14 @@ namespace QuanLyVatTu
             InitializeComponent();
         }
 
- //       private void cbbChiNhanh_SelectedIndexChanged
+        private Form CheckExists(Type ftype)
+        {
+            foreach (Form f in this.MdiChildren)
+                if (f.GetType() == ftype)
+                    return f;
+            return null;
+        }
+        //       private void cbbChiNhanh_SelectedIndexChanged
 
         private void btnThem_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
@@ -71,6 +78,7 @@ namespace QuanLyVatTu
             nhanVienTableAdapter.Connection.ConnectionString = Program.connectionString;
             this.phieuXuatTableAdapter.Fill(this.dS.PhieuXuat);
             macn = ((DataRowView)bdsNV[0])["MACN"].ToString();
+            Program.maCN = ((DataRowView)bdsNV[0])["MACN"].ToString();
             cbbChiNhanh.DataSource = Program.bindingSource;
             cbbChiNhanh.DisplayMember = "TENCN";
             cbbChiNhanh.ValueMember = "TENSERVER";
@@ -417,6 +425,38 @@ namespace QuanLyVatTu
                 this.phieuXuatTableAdapter.Fill(this.dS.PhieuXuat);
                 //macn = ((DataRowView)bdsNV[0])["MANV"].ToString();
             }
+        }
+        /*
+         * Bước 1: lấy ra vị trí của bdsNV
+         * bước 2: Kiểm tra xem nhân viên chuyển có phải là bạn ko, nhân viên có còn hoạt động hay không
+         * Bước 3 : Chuyển nhân viên
+         */
+        private void btnChuyenChiNhanh_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            vitri = bdsNV.Position;
+            Program.maNV = ((DataRowView)bdsNV[vitri])["MANV"].ToString();
+
+            int trangThaiXoa = int.Parse(((DataRowView)bdsNV[vitri])["TrangThaiXoa"].ToString());
+            if(Program.maNV == Program.userName)
+            {
+                MessageBox.Show("Bạn không thể thực hiện chuyển chi nhanh trên chính bạn!", "", MessageBoxButtons.OK);
+                return;
+            } 
+            if(trangThaiXoa == 1)
+            {
+                MessageBox.Show("Nhân viên này không còn làm việc tại chi nhanh này!", "", MessageBoxButtons.OK);
+                return;
+            }
+            Form f = CheckExists(typeof(FormChuyenNhanVien));
+            if (f != null)
+                f.Activate();
+            else
+            {
+                Form form = new FormChuyenNhanVien();
+                //form.MdiParent = this;
+                form.Show();
+            }
+ //           Console.WriteLine("Phong đẹp trai");
         }
     }
 }

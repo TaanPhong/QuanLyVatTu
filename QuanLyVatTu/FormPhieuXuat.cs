@@ -152,6 +152,7 @@ namespace QuanLyVatTu
                 btnthem.Enabled = btnXoa.Enabled = btnHieuChinh.Enabled = btnReset.Enabled = btnThoat.Enabled = true;
                 btnLuu.Enabled = false;
                 gcPX.Enabled = true;
+                gcCTPX.Enabled = true;
                 panelControl2.Enabled = false;
                 panelControl3.Enabled = true;
                 dangThemPX = false;

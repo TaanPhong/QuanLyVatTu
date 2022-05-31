@@ -49,6 +49,7 @@ namespace QuanLyVatTu
             this.btnLuu = new DevExpress.XtraBars.BarButtonItem();
             this.btnPhucHoi = new DevExpress.XtraBars.BarButtonItem();
             this.btnReset = new DevExpress.XtraBars.BarButtonItem();
+            this.btnChuyenChiNhanh = new DevExpress.XtraBars.BarButtonItem();
             this.btnThoat = new DevExpress.XtraBars.BarButtonItem();
             this.bar3 = new DevExpress.XtraBars.Bar();
             this.barDockControlTop = new DevExpress.XtraBars.BarDockControl();
@@ -209,8 +210,9 @@ namespace QuanLyVatTu
             this.btnIDSNV,
             this.btnThoat,
             this.btnLamLai,
-            this.btnReset});
-            this.barManager1.MaxItemId = 13;
+            this.btnReset,
+            this.btnChuyenChiNhanh});
+            this.barManager1.MaxItemId = 14;
             this.barManager1.StatusBar = this.bar3;
             // 
             // bar1
@@ -226,6 +228,7 @@ namespace QuanLyVatTu
             new DevExpress.XtraBars.LinkPersistInfo(DevExpress.XtraBars.BarLinkUserDefines.PaintStyle, this.btnLuu, DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph),
             new DevExpress.XtraBars.LinkPersistInfo(DevExpress.XtraBars.BarLinkUserDefines.PaintStyle, this.btnPhucHoi, DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph),
             new DevExpress.XtraBars.LinkPersistInfo(DevExpress.XtraBars.BarLinkUserDefines.PaintStyle, this.btnReset, DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph),
+            new DevExpress.XtraBars.LinkPersistInfo(DevExpress.XtraBars.BarLinkUserDefines.PaintStyle, this.btnChuyenChiNhanh, DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph),
             new DevExpress.XtraBars.LinkPersistInfo(DevExpress.XtraBars.BarLinkUserDefines.PaintStyle, this.btnThoat, DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph)});
             this.bar1.Text = "Tools";
             // 
@@ -278,6 +281,14 @@ namespace QuanLyVatTu
             this.btnReset.ImageOptions.Image = global::QuanLyVatTu.Properties.Resources.Button_Refresh_icon;
             this.btnReset.Name = "btnReset";
             this.btnReset.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnReset_ItemClick);
+            // 
+            // btnChuyenChiNhanh
+            // 
+            this.btnChuyenChiNhanh.Caption = "Chuyển Chi Nhánh";
+            this.btnChuyenChiNhanh.Id = 13;
+            this.btnChuyenChiNhanh.ImageOptions.Image = global::QuanLyVatTu.Properties.Resources.icons8_replace_player_skin_type_4_48;
+            this.btnChuyenChiNhanh.Name = "btnChuyenChiNhanh";
+            this.btnChuyenChiNhanh.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnChuyenChiNhanh_ItemClick);
             // 
             // btnThoat
             // 
@@ -772,5 +783,6 @@ namespace QuanLyVatTu
         private DSTableAdapters.PhieuNhapTableAdapter phieuNhapTableAdapter;
         private System.Windows.Forms.BindingSource bdsPN;
         private BarButtonItem btnReset;
+        private BarButtonItem btnChuyenChiNhanh;
     }
 }

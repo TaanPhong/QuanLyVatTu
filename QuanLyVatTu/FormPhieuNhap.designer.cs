@@ -155,7 +155,7 @@ namespace QuanLyVatTu
             // mAPNLabel
             // 
             mAPNLabel.AutoSize = true;
-            mAPNLabel.Location = new System.Drawing.Point(19, 80);
+            mAPNLabel.Location = new System.Drawing.Point(17, 71);
             mAPNLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             mAPNLabel.Name = "mAPNLabel";
             mAPNLabel.Size = new System.Drawing.Size(48, 17);
@@ -165,7 +165,7 @@ namespace QuanLyVatTu
             // nGAYLabel
             // 
             nGAYLabel.AutoSize = true;
-            nGAYLabel.Location = new System.Drawing.Point(411, 80);
+            nGAYLabel.Location = new System.Drawing.Point(393, 71);
             nGAYLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             nGAYLabel.Name = "nGAYLabel";
             nGAYLabel.Size = new System.Drawing.Size(47, 17);
@@ -175,7 +175,7 @@ namespace QuanLyVatTu
             // mANVLabel
             // 
             mANVLabel.AutoSize = true;
-            mANVLabel.Location = new System.Drawing.Point(410, 190);
+            mANVLabel.Location = new System.Drawing.Point(392, 181);
             mANVLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             mANVLabel.Name = "mANVLabel";
             mANVLabel.Size = new System.Drawing.Size(48, 17);
@@ -186,7 +186,7 @@ namespace QuanLyVatTu
             // mAKHOLabel
             // 
             mAKHOLabel.AutoSize = true;
-            mAKHOLabel.Location = new System.Drawing.Point(1105, 186);
+            mAKHOLabel.Location = new System.Drawing.Point(1022, 183);
             mAKHOLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             mAKHOLabel.Name = "mAKHOLabel";
             mAKHOLabel.Size = new System.Drawing.Size(58, 17);
@@ -196,7 +196,7 @@ namespace QuanLyVatTu
             // hOTENLabel
             // 
             hOTENLabel.AutoSize = true;
-            hOTENLabel.Location = new System.Drawing.Point(14, 190);
+            hOTENLabel.Location = new System.Drawing.Point(12, 181);
             hOTENLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             hOTENLabel.Name = "hOTENLabel";
             hOTENLabel.Size = new System.Drawing.Size(57, 17);
@@ -206,7 +206,7 @@ namespace QuanLyVatTu
             // masoDDHLabel
             // 
             masoDDHLabel.AutoSize = true;
-            masoDDHLabel.Location = new System.Drawing.Point(1042, 74);
+            masoDDHLabel.Location = new System.Drawing.Point(959, 71);
             masoDDHLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             masoDDHLabel.Name = "masoDDHLabel";
             masoDDHLabel.Size = new System.Drawing.Size(77, 17);
@@ -216,7 +216,7 @@ namespace QuanLyVatTu
             // tENKHOLabel
             // 
             tENKHOLabel.AutoSize = true;
-            tENKHOLabel.Location = new System.Drawing.Point(748, 189);
+            tENKHOLabel.Location = new System.Drawing.Point(681, 183);
             tENKHOLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             tENKHOLabel.Name = "tENKHOLabel";
             tENKHOLabel.Size = new System.Drawing.Size(65, 17);
@@ -226,7 +226,7 @@ namespace QuanLyVatTu
             // mAVTLabel
             // 
             mAVTLabel.AutoSize = true;
-            mAVTLabel.Location = new System.Drawing.Point(331, 364);
+            mAVTLabel.Location = new System.Drawing.Point(32, 390);
             mAVTLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             mAVTLabel.Name = "mAVTLabel";
             mAVTLabel.Size = new System.Drawing.Size(47, 17);
@@ -236,7 +236,7 @@ namespace QuanLyVatTu
             // sOLUONGLabel
             // 
             sOLUONGLabel.AutoSize = true;
-            sOLUONGLabel.Location = new System.Drawing.Point(690, 358);
+            sOLUONGLabel.Location = new System.Drawing.Point(430, 340);
             sOLUONGLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             sOLUONGLabel.Name = "sOLUONGLabel";
             sOLUONGLabel.Size = new System.Drawing.Size(75, 17);
@@ -246,7 +246,7 @@ namespace QuanLyVatTu
             // dONGIALabel
             // 
             dONGIALabel.AutoSize = true;
-            dONGIALabel.Location = new System.Drawing.Point(1086, 362);
+            dONGIALabel.Location = new System.Drawing.Point(428, 390);
             dONGIALabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             dONGIALabel.Name = "dONGIALabel";
             dONGIALabel.Size = new System.Drawing.Size(63, 17);
@@ -256,7 +256,7 @@ namespace QuanLyVatTu
             // mAPNLabel1
             // 
             mAPNLabel1.AutoSize = true;
-            mAPNLabel1.Location = new System.Drawing.Point(31, 362);
+            mAPNLabel1.Location = new System.Drawing.Point(31, 340);
             mAPNLabel1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             mAPNLabel1.Name = "mAPNLabel1";
             mAPNLabel1.Size = new System.Drawing.Size(48, 17);
@@ -386,16 +386,16 @@ namespace QuanLyVatTu
             this.barDockControlTop.Location = new System.Drawing.Point(0, 0);
             this.barDockControlTop.Manager = this.barManager1;
             this.barDockControlTop.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.barDockControlTop.Size = new System.Drawing.Size(1370, 70);
+            this.barDockControlTop.Size = new System.Drawing.Size(1924, 70);
             // 
             // barDockControlBottom
             // 
             this.barDockControlBottom.CausesValidation = false;
             this.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.barDockControlBottom.Location = new System.Drawing.Point(0, 750);
+            this.barDockControlBottom.Location = new System.Drawing.Point(0, 785);
             this.barDockControlBottom.Manager = this.barManager1;
             this.barDockControlBottom.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.barDockControlBottom.Size = new System.Drawing.Size(1370, 0);
+            this.barDockControlBottom.Size = new System.Drawing.Size(1924, 0);
             // 
             // barDockControlLeft
             // 
@@ -404,16 +404,16 @@ namespace QuanLyVatTu
             this.barDockControlLeft.Location = new System.Drawing.Point(0, 70);
             this.barDockControlLeft.Manager = this.barManager1;
             this.barDockControlLeft.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.barDockControlLeft.Size = new System.Drawing.Size(0, 680);
+            this.barDockControlLeft.Size = new System.Drawing.Size(0, 715);
             // 
             // barDockControlRight
             // 
             this.barDockControlRight.CausesValidation = false;
             this.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
-            this.barDockControlRight.Location = new System.Drawing.Point(1370, 70);
+            this.barDockControlRight.Location = new System.Drawing.Point(1924, 70);
             this.barDockControlRight.Manager = this.barManager1;
             this.barDockControlRight.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.barDockControlRight.Size = new System.Drawing.Size(0, 680);
+            this.barDockControlRight.Size = new System.Drawing.Size(0, 715);
             // 
             // barButtonItem1
             // 
@@ -480,7 +480,7 @@ namespace QuanLyVatTu
             this.panelControl1.Location = new System.Drawing.Point(0, 70);
             this.panelControl1.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
             this.panelControl1.Name = "panelControl1";
-            this.panelControl1.Size = new System.Drawing.Size(1370, 120);
+            this.panelControl1.Size = new System.Drawing.Size(1924, 120);
             this.panelControl1.TabIndex = 5;
             // 
             // cbbChiNhanh
@@ -547,7 +547,7 @@ namespace QuanLyVatTu
             this.gcPN.Margin = new System.Windows.Forms.Padding(5);
             this.gcPN.MenuManager = this.barManager1;
             this.gcPN.Name = "gcPN";
-            this.gcPN.Size = new System.Drawing.Size(1370, 315);
+            this.gcPN.Size = new System.Drawing.Size(1924, 98);
             this.gcPN.TabIndex = 10;
             this.gcPN.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -641,10 +641,10 @@ namespace QuanLyVatTu
             this.panelControl2.Controls.Add(this.teMaPN);
             this.panelControl2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelControl2.Enabled = false;
-            this.panelControl2.Location = new System.Drawing.Point(0, 505);
+            this.panelControl2.Location = new System.Drawing.Point(0, 288);
             this.panelControl2.Margin = new System.Windows.Forms.Padding(5);
             this.panelControl2.Name = "panelControl2";
-            this.panelControl2.Size = new System.Drawing.Size(1461, 245);
+            this.panelControl2.Size = new System.Drawing.Size(1319, 497);
             this.panelControl2.TabIndex = 11;
             this.panelControl2.Paint += new System.Windows.Forms.PaintEventHandler(this.panelControl2_Paint);
             // 
@@ -652,7 +652,7 @@ namespace QuanLyVatTu
             // 
             this.txtMaPN_CTPN.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.bdsCTPN, "MAPN", true));
             this.txtMaPN_CTPN.Enabled = false;
-            this.txtMaPN_CTPN.Location = new System.Drawing.Point(115, 358);
+            this.txtMaPN_CTPN.Location = new System.Drawing.Point(115, 336);
             this.txtMaPN_CTPN.Margin = new System.Windows.Forms.Padding(5);
             this.txtMaPN_CTPN.Name = "txtMaPN_CTPN";
             this.txtMaPN_CTPN.Size = new System.Drawing.Size(154, 23);
@@ -671,7 +671,7 @@ namespace QuanLyVatTu
             0,
             0,
             0});
-            this.seDonGiaCTPN.Location = new System.Drawing.Point(1194, 358);
+            this.seDonGiaCTPN.Location = new System.Drawing.Point(551, 386);
             this.seDonGiaCTPN.Margin = new System.Windows.Forms.Padding(5);
             this.seDonGiaCTPN.MenuManager = this.barManager1;
             this.seDonGiaCTPN.Name = "seDonGiaCTPN";
@@ -679,11 +679,12 @@ namespace QuanLyVatTu
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.seDonGiaCTPN.Size = new System.Drawing.Size(195, 24);
             this.seDonGiaCTPN.TabIndex = 24;
+            this.seDonGiaCTPN.EditValueChanged += new System.EventHandler(this.seDonGiaCTPN_EditValueChanged);
             // 
             // nnSoLuong
             // 
             this.nnSoLuong.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.bdsCTPN, "SOLUONG", true));
-            this.nnSoLuong.Location = new System.Drawing.Point(818, 358);
+            this.nnSoLuong.Location = new System.Drawing.Point(558, 340);
             this.nnSoLuong.Margin = new System.Windows.Forms.Padding(5);
             this.nnSoLuong.Name = "nnSoLuong";
             this.nnSoLuong.Size = new System.Drawing.Size(188, 23);
@@ -693,7 +694,7 @@ namespace QuanLyVatTu
             // 
             this.ccbMaVT.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.bdsCTPN, "MAVT", true));
             this.ccbMaVT.FormattingEnabled = true;
-            this.ccbMaVT.Location = new System.Drawing.Point(414, 352);
+            this.ccbMaVT.Location = new System.Drawing.Point(115, 383);
             this.ccbMaVT.Margin = new System.Windows.Forms.Padding(5);
             this.ccbMaVT.Name = "ccbMaVT";
             this.ccbMaVT.Size = new System.Drawing.Size(186, 24);
@@ -708,7 +709,7 @@ namespace QuanLyVatTu
             this.separatorControl1.Margin = new System.Windows.Forms.Padding(5);
             this.separatorControl1.Name = "separatorControl1";
             this.separatorControl1.Padding = new System.Windows.Forms.Padding(14);
-            this.separatorControl1.Size = new System.Drawing.Size(1349, 30);
+            this.separatorControl1.Size = new System.Drawing.Size(1349, 29);
             this.separatorControl1.TabIndex = 18;
             this.separatorControl1.Click += new System.EventHandler(this.separatorControl1_Click);
             // 
@@ -719,7 +720,7 @@ namespace QuanLyVatTu
             this.cbbTenKho.DataSource = this.bdsKho;
             this.cbbTenKho.DisplayMember = "TENKHO";
             this.cbbTenKho.FormattingEnabled = true;
-            this.cbbTenKho.Location = new System.Drawing.Point(858, 185);
+            this.cbbTenKho.Location = new System.Drawing.Point(791, 179);
             this.cbbTenKho.Margin = new System.Windows.Forms.Padding(5);
             this.cbbTenKho.Name = "cbbTenKho";
             this.cbbTenKho.Size = new System.Drawing.Size(186, 24);
@@ -736,7 +737,7 @@ namespace QuanLyVatTu
             // 
             this.cbbMaSoDDH.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.bdsPN, "MasoDDH", true));
             this.cbbMaSoDDH.FormattingEnabled = true;
-            this.cbbMaSoDDH.Location = new System.Drawing.Point(1172, 69);
+            this.cbbMaSoDDH.Location = new System.Drawing.Point(1089, 66);
             this.cbbMaSoDDH.Margin = new System.Windows.Forms.Padding(5);
             this.cbbMaSoDDH.Name = "cbbMaSoDDH";
             this.cbbMaSoDDH.Size = new System.Drawing.Size(186, 24);
@@ -749,7 +750,7 @@ namespace QuanLyVatTu
             this.cbbHoTenNV.DataSource = this.bdsHoTenNV;
             this.cbbHoTenNV.DisplayMember = "HOTEN";
             this.cbbHoTenNV.FormattingEnabled = true;
-            this.cbbHoTenNV.Location = new System.Drawing.Point(138, 186);
+            this.cbbHoTenNV.Location = new System.Drawing.Point(136, 177);
             this.cbbHoTenNV.Margin = new System.Windows.Forms.Padding(5);
             this.cbbHoTenNV.Name = "cbbHoTenNV";
             this.cbbHoTenNV.Size = new System.Drawing.Size(186, 24);
@@ -766,7 +767,7 @@ namespace QuanLyVatTu
             // 
             this.txtMaKho.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.bdsPN, "MAKHO", true));
             this.txtMaKho.Enabled = false;
-            this.txtMaKho.Location = new System.Drawing.Point(1205, 180);
+            this.txtMaKho.Location = new System.Drawing.Point(1122, 177);
             this.txtMaKho.Margin = new System.Windows.Forms.Padding(5);
             this.txtMaKho.Name = "txtMaKho";
             this.txtMaKho.Size = new System.Drawing.Size(154, 23);
@@ -777,7 +778,7 @@ namespace QuanLyVatTu
             // 
             this.txtMaNV.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.bdsPN, "MANV", true));
             this.txtMaNV.Enabled = false;
-            this.txtMaNV.Location = new System.Drawing.Point(495, 186);
+            this.txtMaNV.Location = new System.Drawing.Point(477, 177);
             this.txtMaNV.Margin = new System.Windows.Forms.Padding(5);
             this.txtMaNV.Name = "txtMaNV";
             this.txtMaNV.Size = new System.Drawing.Size(154, 23);
@@ -788,7 +789,7 @@ namespace QuanLyVatTu
             // 
             this.deNgay.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.bdsPN, "NGAY", true));
             this.deNgay.EditValue = null;
-            this.deNgay.Location = new System.Drawing.Point(511, 75);
+            this.deNgay.Location = new System.Drawing.Point(493, 66);
             this.deNgay.Margin = new System.Windows.Forms.Padding(5);
             this.deNgay.MenuManager = this.barManager1;
             this.deNgay.Name = "deNgay";
@@ -802,7 +803,7 @@ namespace QuanLyVatTu
             // teMaPN
             // 
             this.teMaPN.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.bdsPN, "MAPN", true));
-            this.teMaPN.Location = new System.Drawing.Point(138, 75);
+            this.teMaPN.Location = new System.Drawing.Point(136, 66);
             this.teMaPN.Margin = new System.Windows.Forms.Padding(5);
             this.teMaPN.MenuManager = this.barManager1;
             this.teMaPN.Name = "teMaPN";
@@ -839,10 +840,10 @@ namespace QuanLyVatTu
             this.panelControl3.Controls.Add(this.sbtnXoa);
             this.panelControl3.Controls.Add(this.sbtnThem);
             this.panelControl3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelControl3.Location = new System.Drawing.Point(1461, 505);
+            this.panelControl3.Location = new System.Drawing.Point(1319, 288);
             this.panelControl3.Margin = new System.Windows.Forms.Padding(5);
             this.panelControl3.Name = "panelControl3";
-            this.panelControl3.Size = new System.Drawing.Size(0, 115);
+            this.panelControl3.Size = new System.Drawing.Size(605, 115);
             this.panelControl3.TabIndex = 40;
             // 
             // sbtnPhucHoi
@@ -862,7 +863,7 @@ namespace QuanLyVatTu
             // 
             this.sbtnLuu.Enabled = false;
             this.sbtnLuu.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("sbtnLuu.ImageOptions.SvgImage")));
-            this.sbtnLuu.Location = new System.Drawing.Point(578, 28);
+            this.sbtnLuu.Location = new System.Drawing.Point(518, 28);
             this.sbtnLuu.Margin = new System.Windows.Forms.Padding(5);
             this.sbtnLuu.Name = "sbtnLuu";
             this.sbtnLuu.PaintStyle = DevExpress.XtraEditors.Controls.PaintStyles.Light;
@@ -874,7 +875,7 @@ namespace QuanLyVatTu
             // sbtnHieuChinh
             // 
             this.sbtnHieuChinh.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("sbtnHieuChinh.ImageOptions.SvgImage")));
-            this.sbtnHieuChinh.Location = new System.Drawing.Point(355, 28);
+            this.sbtnHieuChinh.Location = new System.Drawing.Point(326, 28);
             this.sbtnHieuChinh.Margin = new System.Windows.Forms.Padding(5);
             this.sbtnHieuChinh.Name = "sbtnHieuChinh";
             this.sbtnHieuChinh.PaintStyle = DevExpress.XtraEditors.Controls.PaintStyles.Light;
@@ -912,14 +913,14 @@ namespace QuanLyVatTu
             this.gcCTPN.DataSource = this.bdsCTPN;
             this.gcCTPN.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gcCTPN.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(5);
-            this.gcCTPN.Location = new System.Drawing.Point(1461, 620);
+            this.gcCTPN.Location = new System.Drawing.Point(1319, 403);
             this.gcCTPN.MainView = this.gridView2;
             this.gcCTPN.Margin = new System.Windows.Forms.Padding(5);
             this.gcCTPN.MenuManager = this.barManager1;
             this.gcCTPN.Name = "gcCTPN";
             this.gcCTPN.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
             this.edCbbMaVT});
-            this.gcCTPN.Size = new System.Drawing.Size(0, 130);
+            this.gcCTPN.Size = new System.Drawing.Size(605, 382);
             this.gcCTPN.TabIndex = 49;
             this.gcCTPN.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView2});
@@ -982,7 +983,7 @@ namespace QuanLyVatTu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1370, 750);
+            this.ClientSize = new System.Drawing.Size(1924, 785);
             this.Controls.Add(this.gcCTPN);
             this.Controls.Add(this.panelControl3);
             this.Controls.Add(this.panelControl2);

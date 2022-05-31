@@ -709,3 +709,7 @@ D:\DOAN\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.csproj.CoreCompileInputs.c
 D:\DOAN\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.csproj.CopyComplete
 D:\DOAN\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.exe
 D:\DOAN\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.pdb
+D:\HK2-Nam-3\CSDL_PT\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.ReportForm.BaoCaoDonHangThieuPN.resources
+D:\HK2-Nam-3\CSDL_PT\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.ReportForm.FormTongHopNhapXuat.resources
+D:\HK2-Nam-3\CSDL_PT\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.ReportForm.ReportDDHThieuPN.resources
+D:\HK2-Nam-3\CSDL_PT\QuanLyVatTu\QuanLyVatTu\obj\Debug\QuanLyVatTu.FormChuyenNhanVien.resources

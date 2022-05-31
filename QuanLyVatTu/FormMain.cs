@@ -44,6 +44,7 @@ namespace QuanLyVatTu
             }  
             else
             {
+                pageBaoCao.Visible = false;
                 bntLapPhieu.Enabled = true;
             }    
         }
@@ -249,14 +250,14 @@ namespace QuanLyVatTu
 
         private void barButtonItem1_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            Form form = CheckExists(typeof(ReportForm.BaoCaoVatuTu));
-            if (form != null) form.Activate();
-            else
-            {
-                Form report = new ReportForm.BaoCaoVatuTu();
-                report.MdiParent = this;
-                report.Show();
-            }
+            //Form form = CheckExists(typeof(ReportForm.BaoCaoVatuTu));
+            //if (form != null) form.Activate();
+            //else
+            //{
+            //    Form report = new ReportForm.BaoCaoVatuTu();
+            //    report.MdiParent = this;
+            //    report.Show();
+            //}
         }
     }
 }

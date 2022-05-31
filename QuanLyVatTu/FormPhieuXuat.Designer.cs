@@ -356,16 +356,16 @@ namespace QuanLyVatTu
             this.barDockControlTop.Location = new System.Drawing.Point(0, 0);
             this.barDockControlTop.Manager = this.barManager1;
             this.barDockControlTop.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.barDockControlTop.Size = new System.Drawing.Size(1371, 70);
+            this.barDockControlTop.Size = new System.Drawing.Size(1479, 70);
             // 
             // barDockControlBottom
             // 
             this.barDockControlBottom.CausesValidation = false;
             this.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.barDockControlBottom.Location = new System.Drawing.Point(0, 727);
+            this.barDockControlBottom.Location = new System.Drawing.Point(0, 684);
             this.barDockControlBottom.Manager = this.barManager1;
             this.barDockControlBottom.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.barDockControlBottom.Size = new System.Drawing.Size(1371, 0);
+            this.barDockControlBottom.Size = new System.Drawing.Size(1479, 0);
             // 
             // barDockControlLeft
             // 
@@ -374,16 +374,16 @@ namespace QuanLyVatTu
             this.barDockControlLeft.Location = new System.Drawing.Point(0, 70);
             this.barDockControlLeft.Manager = this.barManager1;
             this.barDockControlLeft.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.barDockControlLeft.Size = new System.Drawing.Size(0, 657);
+            this.barDockControlLeft.Size = new System.Drawing.Size(0, 614);
             // 
             // barDockControlRight
             // 
             this.barDockControlRight.CausesValidation = false;
             this.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
-            this.barDockControlRight.Location = new System.Drawing.Point(1371, 70);
+            this.barDockControlRight.Location = new System.Drawing.Point(1479, 70);
             this.barDockControlRight.Manager = this.barManager1;
             this.barDockControlRight.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.barDockControlRight.Size = new System.Drawing.Size(0, 657);
+            this.barDockControlRight.Size = new System.Drawing.Size(0, 614);
             // 
             // barButtonItem1
             // 
@@ -449,7 +449,7 @@ namespace QuanLyVatTu
             this.panelControl1.Location = new System.Drawing.Point(0, 70);
             this.panelControl1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panelControl1.Name = "panelControl1";
-            this.panelControl1.Size = new System.Drawing.Size(1371, 85);
+            this.panelControl1.Size = new System.Drawing.Size(1479, 85);
             this.panelControl1.TabIndex = 6;
             // 
             // cbbChiNhanh
@@ -520,7 +520,7 @@ namespace QuanLyVatTu
             this.gcPX.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.gcPX.MenuManager = this.barManager1;
             this.gcPX.Name = "gcPX";
-            this.gcPX.Size = new System.Drawing.Size(1371, 201);
+            this.gcPX.Size = new System.Drawing.Size(1479, 201);
             this.gcPX.TabIndex = 7;
             this.gcPX.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -617,7 +617,7 @@ namespace QuanLyVatTu
             this.panelControl2.Location = new System.Drawing.Point(0, 356);
             this.panelControl2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panelControl2.Name = "panelControl2";
-            this.panelControl2.Size = new System.Drawing.Size(925, 371);
+            this.panelControl2.Size = new System.Drawing.Size(892, 328);
             this.panelControl2.TabIndex = 8;
             // 
             // seDonGia
@@ -679,7 +679,7 @@ namespace QuanLyVatTu
             this.separatorControl1.Location = new System.Drawing.Point(21, 169);
             this.separatorControl1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.separatorControl1.Name = "separatorControl1";
-            this.separatorControl1.Size = new System.Drawing.Size(848, 18);
+            this.separatorControl1.Size = new System.Drawing.Size(848, 19);
             this.separatorControl1.TabIndex = 19;
             // 
             // txtHoTenKH
@@ -784,10 +784,10 @@ namespace QuanLyVatTu
             this.panelControl3.Controls.Add(this.sbtnXoa);
             this.panelControl3.Controls.Add(this.sbtnThem);
             this.panelControl3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelControl3.Location = new System.Drawing.Point(925, 356);
+            this.panelControl3.Location = new System.Drawing.Point(892, 356);
             this.panelControl3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panelControl3.Name = "panelControl3";
-            this.panelControl3.Size = new System.Drawing.Size(446, 74);
+            this.panelControl3.Size = new System.Drawing.Size(587, 74);
             this.panelControl3.TabIndex = 41;
             // 
             // sbtnHoanTac
@@ -855,7 +855,7 @@ namespace QuanLyVatTu
             this.gcCTPX.DataSource = this.bdsCTPX;
             this.gcCTPX.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gcCTPX.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.gcCTPX.Location = new System.Drawing.Point(925, 430);
+            this.gcCTPX.Location = new System.Drawing.Point(892, 430);
             this.gcCTPX.MainView = this.gridView2;
             this.gcCTPX.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.gcCTPX.MenuManager = this.barManager1;
@@ -863,7 +863,7 @@ namespace QuanLyVatTu
             this.gcCTPX.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
             this.lkMaVaTu,
             this.cedMaVT});
-            this.gcCTPX.Size = new System.Drawing.Size(446, 297);
+            this.gcCTPX.Size = new System.Drawing.Size(587, 254);
             this.gcCTPX.TabIndex = 41;
             this.gcCTPX.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView2});
@@ -952,7 +952,7 @@ namespace QuanLyVatTu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1371, 727);
+            this.ClientSize = new System.Drawing.Size(1479, 684);
             this.Controls.Add(this.gcCTPX);
             this.Controls.Add(this.panelControl3);
             this.Controls.Add(this.panelControl2);

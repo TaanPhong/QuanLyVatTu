@@ -78,6 +78,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormChuyenNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormChuyenNhanVien.Designer.cs">
+      <DependentUpon>FormChuyenNhanVien.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormTaoLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -196,6 +202,9 @@
     <Compile Include="ReportForm\ReportHoatDongCua1NhanVien.Designer.cs">
       <DependentUpon>ReportHoatDongCua1NhanVien.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="FormChuyenNhanVien.resx">
+      <DependentUpon>FormChuyenNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormDatHang.resx">
       <DependentUpon>FormDatHang.cs</DependentUpon>
     </EmbeddedResource>
@@ -382,6 +391,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8-pdf-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-replace-player-skin-type-4-48.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
