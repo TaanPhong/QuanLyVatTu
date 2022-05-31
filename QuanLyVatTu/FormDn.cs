@@ -37,13 +37,7 @@ namespace QuanLyVatTu
             cmbCHINHANH.ValueMember = "TENSERVER";
         }
         
-        //private Form CheckExists(Type ftype)
-        //{
-        //    foreach (Form f in this.MdiChildren)
-        //        if (f.GetType() == ftype)
-        //            return f;
-        //    return null;
-        //}
+        
         private int KetNoiDatabaseGoc()
         {
             if (connPublisher != null && connPublisher.State == ConnectionState.Open)
@@ -121,6 +115,14 @@ namespace QuanLyVatTu
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
 
+            if (btnHienMatKhau.Checked)
+            {
+                txtMatKhau.Properties.UseSystemPasswordChar = false;
+            }
+            else
+            {
+                txtMatKhau.Properties.UseSystemPasswordChar = true;
+            }
         }
 
         private void textEdit1_EditValueChanged(object sender, EventArgs e)
@@ -154,17 +156,7 @@ namespace QuanLyVatTu
 
         }
 
-        private void btnHienMatKhau_CheckedChanged(object sender,EventArgs e)
-        {
-            if (btnHienMatKhau.Checked)
-            {
-                txtMatKhau.Properties.UseSystemPasswordChar = false;
-            }
-            else
-            {
-                txtMatKhau.Properties.UseSystemPasswordChar = true;
-            }
-        }
+       
 
         private void bntThoat_Click(object sender, EventArgs e)
         {

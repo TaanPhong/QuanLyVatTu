@@ -96,6 +96,12 @@
     <Compile Include="ReportForm\BaoCaoDonHangThieuPN.Designer.cs">
       <DependentUpon>BaoCaoDonHangThieuPN.cs</DependentUpon>
     </Compile>
+    <Compile Include="ReportForm\BaoCaoVatuTu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportForm\BaoCaoVatuTu.Designer.cs">
+      <DependentUpon>BaoCaoVatuTu.cs</DependentUpon>
+    </Compile>
     <Compile Include="ReportForm\FormTongHopNhapXuat.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -202,9 +208,7 @@
     <Compile Include="ReportForm\ReportHoatDongCua1NhanVien.Designer.cs">
       <DependentUpon>ReportHoatDongCua1NhanVien.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="FormChuyenNhanVien.resx">
-      <DependentUpon>FormChuyenNhanVien.cs</DependentUpon>
-    </EmbeddedResource>
+
     <EmbeddedResource Include="FormDatHang.resx">
       <DependentUpon>FormDatHang.cs</DependentUpon>
     </EmbeddedResource>
@@ -234,6 +238,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ReportForm\BaoCaoDonHangThieuPN.resx">
       <DependentUpon>BaoCaoDonHangThieuPN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportForm\BaoCaoVatuTu.resx">
+      <DependentUpon>BaoCaoVatuTu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ReportForm\FormTongHopNhapXuat.resx">
       <DependentUpon>FormTongHopNhapXuat.cs</DependentUpon>
@@ -269,6 +276,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ReportForm\ReportHoatDongCua1NhanVien.resx">
       <DependentUpon>ReportHoatDongCua1NhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportForm\ReportVatTu.resx">
+      <DependentUpon>ReportVatTu.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="DS.xsc">
       <DependentUpon>DS.xsd</DependentUpon>
